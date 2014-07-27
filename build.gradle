@@ -43,6 +43,12 @@ modifyPom {
     url 'https://github.com/thomaslee/gradle-jflex-plugin'
     inceptionYear '2014'
 
+    scm {
+      url 'https://github.com/thomaslee/gradle-jflex-plugin'
+      connection 'scm:git://github.com/thomaslee/gradle-jflex-plugin.git'
+      developerConnection 'scm:git@github.com:thomaslee/gradle-jflex-plugin.git'
+    }
+
     licenses {
       license {
         name 'Apache License 2.0'
