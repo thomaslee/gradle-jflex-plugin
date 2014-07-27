@@ -33,7 +33,7 @@ Then:
     }
 
 Once everything's wired up, Gradle will look for your JFlex specs in
-`src/main/beaver/*.l`.
+`src/main/jflex/*.l`.
 
 ## License
 
