@@ -32,9 +32,7 @@ public final class JFlexPlugin implements Plugin<Project> {
     }
 
     private void configureConfigurations(final Project project) {
-        final Configuration jflexConfiguration =
-            project.getConfigurations().create("jflex").setVisible(false);
-        project.getConfigurations().getByName(JavaPlugin.COMPILE_CONFIGURATION_NAME).extendsFrom(jflexConfiguration);
+        final Configuration jflexConfiguration = project.getConfigurations().create("jflex").setVisible(false);
     }
 
     private void configureSourceSets(final Project project) {
