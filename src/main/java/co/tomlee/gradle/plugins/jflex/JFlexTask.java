@@ -18,7 +18,7 @@ public class JFlexTask extends SourceTask {
     public void generate() throws Exception {
         getProject().javaexec(new Closure(this) {
             public void doCall(JavaExecSpec javaExecSpec) {
-                javaExecSpec.setMain("JFlex.Main")
+                javaExecSpec.setMain("jflex.Main")
                         .setClasspath(getProject().getConfigurations().getByName("jflex"))
                         .args("-d")
                         .args(getOutputDirectory())

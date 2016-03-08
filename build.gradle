@@ -22,7 +22,7 @@ buildscript {
 }
 
 ext {
-  jflexVersion = '1.6.0'
+  jflexVersion = '1.6.1'
 }
 
 repositories {
